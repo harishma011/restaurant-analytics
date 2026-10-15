@@ -62,7 +62,7 @@ The goal is to transform raw data into meaningful insights that can support busi
 
 This project demonstrates an end-to-end data analytics workflow using Excel, Python, MySQL, and Power BI. It showcases practical experience in preparing datasets, analyzing business metrics, answering analytical questions, and communicating findings through visual reports.
 
-
+## Project Information
 
 **Project Type:** Restaurant Analytics  
 **Experience:** Internship project completed as part of AI-Driven Data Analytics training at NeST Digital Academy  
