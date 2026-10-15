@@ -1,0 +1,509 @@
+Restaurant_ID,Restaurant_Name,Location_ID,Cuisine_ID,Rating,Votes,Average_Cost,Online_Order,Table_Booking,Restaurant_Type,Established_Year,Delivery_Time,Delivery_Rating,Is_Active
+R0001,Continental Fine 1,L024,C013,3.5,694,700,Yes,No,Fine Dining,2016,42,3.3,Yes
+R0002,Biryani Fine 2,L024,C007,4.4,215,350,Yes,No,Fine Dining,2023,44,3.9,Yes
+R0003,Italian Fine 3,L018,C005,3.3,67,300,Yes,No,Fine Dining,2007,39,4.2,Yes
+R0004,North Indian Cafe 4,L024,C002,4.0,663,500,No,Yes,Cafe,2004,51,3.0,Yes
+R0005,Seafood Quick 5,L030,C017,4.5,628,800,Yes,Yes,Quick Service,2004,37,4.1,Yes
+R0006,Street Food Bakery 6,L043,C020,3.0,645,250,Yes,No,Bakery,2018,38,4.4,Yes
+R0007,BBQ Casual 7,L035,C018,3.4,48,600,Yes,No,Casual Dining,2012,41,3.0,Yes
+R0008,Continental Quick 8,L015,C013,4.7,1724,900,No,No,Quick Service,2018,32,4.1,Yes
+R0009,Continental Casual 9,L035,C013,4.0,168,900,Yes,Yes,Casual Dining,2022,15,4.6,Yes
+R0010,BBQ Cafe 10,L011,C018,3.8,471,500,No,No,Cafe,2023,43,4.0,Yes
+R0011,Korean Quick 11,L016,C019,3.9,465,800,Yes,Yes,Quick Service,2024,37,3.6,Yes
+R0012,Indian Food 12,L013,C001,4.2,209,850,Yes,No,Food Court,2011,32,3.5,Yes
+R0013,Seafood Quick 13,L034,C017,3.2,213,450,Yes,No,Quick Service,2019,39,3.3,No
+R0014,Biryani Cafe 14,L009,C007,3.6,478,1200,Yes,Yes,Cafe,2020,18,4.6,Yes
+R0015,,L045,C014,4.9,145,550,No,No,Quick Service,2001,49,4.0,Yes
+R0016,Korean Quick 16,L016,C019,3.3,619,1150,No,No,Quick Service,2008,39,3.8,Yes
+R0017,Bakery Cafe 17,L034,C010,3.2,80,900,Yes,No,Cafe,2004,24,3.7,Yes
+R0018,Japanese Casual 18,L046,C012,3.8,181,800,No,Yes,Casual Dining,2010,33,3.3,Yes
+R0019,Mexican Casual 19,L023,C006,4.3,478,550,Yes,Yes,Casual Dining,2019,41,3.5,Yes
+R0020,Fast Food Quick 20,L016,C008,3.8,258,350,Yes,No,Quick Service,2024,38,3.9,Yes
+R0021,BBQ Casual 21,L043,C018,3.4,416,1050,Yes,No,Casual Dining,2014,25,3.5,Yes
+R0022,Fast Food Bakery 22,L001,C008,3.4,1075,650,No,No,Bakery,2017,37,4.2,Yes
+R0023,Cafe Cafe 23,L028,C009,4.0,516,300,No,Yes,Cafe,2004,47,4.1,Yes
+R0024,Korean Quick 24,L031,C019,4.2,1360,900,No,No,Quick Service,2001,34,3.9,Yes
+R0025,Indian Quick 25,L040,C001,3.7,251,1450,No,No,Quick Service,2018,38,3.3,Yes
+R0026,Continental Casual 26,L041,C013,3.5,154,800,Yes,Yes,Casual Dining,2000,33,3.6,Yes
+R0027,Mughlai Quick 27,L037,C015,3.3,379,600,Yes,No,Quick Service,2024,25,3.5,Yes
+R0028,Cafe Fine 28,L010,C009,3.0,131,800,No,Yes,Fine Dining,2014,23,3.5,Yes
+R0029,Mexican Bakery 29,L023,C006,2.8,77,950,No,No,Bakery,2019,32,4.6,Yes
+R0030,Street Food Food 30,L012,C020,3.1,298,900,Yes,No,Food Court,2007,38,3.6,Yes
+R0031,Japanese Food 31,L028,C012,4.9,278,750,Yes,Yes,Food Court,2008,25,3.2,Yes
+R0032,Street Food Fine 32,L004,C020,2.6,72,500,No,No,Fine Dining,2012,51,5.0,Yes
+R0033,Thai Quick 33,L015,C011,3.3,479,350,Yes,No,Quick Service,2021,43,3.2,Yes
+R0034,Biryani Food 34,L012,C007,4.7,1062,550,Yes,Yes,Food Court,2012,27,3.5,Yes
+R0035,Chinese Bakery 35,L039,C004,3.4,108,1600,Yes,No,Bakery,2007,35,3.5,No
+R0036,Thai Food 36,L035,C011,3.2,338,400,Yes,Yes,Food Court,2003,26,4.3,No
+R0037,BBQ Casual 37,L048,C018,4.1,951,500,Yes,No,Casual Dining,2003,29,3.9,Yes
+R0038,Japanese Casual 38,L028,C012,3.9,138,650,Yes,No,Casual Dining,2013,35,4.3,Yes
+R0039,Biryani Cafe 39,L027,C007,4.9,136,450,Yes,No,Cafe,2006,42,3.9,Yes
+R0040,Chinese Quick 40,L015,C004,4.4,418,750,No,No,Quick Service,2020,23,3.8,Yes
+R0041,Cafe Quick 41,L013,C009,3.6,199,350,Yes,No,Quick Service,2013,39,3.7,Yes
+R0042,Mexican Cafe 42,L026,C006,3.4,348,450,No,No,Cafe,2004,61,2.9,Yes
+R0043,Japanese Cafe 43,L029,C012,3.3,574,950,Yes,No,Cafe,2006,40,4.3,Yes
+R0044,Bakery Cafe 44,L043,C010,2.9,135,700,Yes,No,Cafe,2013,19,3.6,Yes
+R0045,Cafe Quick 45,L021,C009,3.4,114,450,No,Yes,Quick Service,2003,31,3.2,Yes
+R0046,Kerala Quick 46,L032,C014,4.2,731,400,No,Yes,Quick Service,2011,34,3.7,Yes
+R0047,Mexican Quick 47,L002,C006,3.3,71,850,No,No,Quick Service,2012,25,3.9,Yes
+R0048,Fast Food Food 48,L036,C008,4.3,225,750,No,No,Food Court,2022,45,3.5,Yes
+R0049,Fast Food Bakery 49,L015,C008,3.9,344,850,Yes,No,Bakery,2008,26,3.8,Yes
+R0050,Chinese Casual 50,L006,C004,4.0,70,850,No,No,Casual Dining,2014,49,3.5,Yes
+R0051,BBQ Food 51,L019,C018,2.3,108,600,Yes,No,Food Court,2018,49,3.5,Yes
+R0052,Street Food Quick 52,L009,C020,3.8,212,700,Yes,Yes,Quick Service,2019,46,4.4,Yes
+R0053,Biryani Casual 53,L014,C007,4.8,52,400,Yes,No,Casual Dining,2012,49,3.6,Yes
+R0054,Seafood Cafe 54,L022,C017,3.6,294,300,No,No,Cafe,2000,38,4.1,Yes
+R0055,Desserts Cafe 55,L012,C016,3.2,301,450,Yes,No,Cafe,2004,15,4.2,Yes
+R0056,BBQ Cafe 56,L043,C018,3.9,144,700,No,No,Cafe,2002,35,3.0,Yes
+R0057,Indian Cafe 57,L033,C001,,424,1150,No,Yes,Cafe,2016,23,4.4,Yes
+R0058,Kerala Bakery 58,L027,C014,2.9,363,1000,Yes,Yes,Bakery,2009,45,4.0,Yes
+R0059,Bakery Cafe 59,L017,C010,2.7,536,300,Yes,No,Cafe,2010,46,4.5,Yes
+R0060,Biryani Quick 60,L045,C007,4.7,264,500,Yes,No,Quick Service,2016,44,3.8,Yes
+R0061,South Indian Quick 61,L034,C003,3.4,214,400,No,Yes,Quick Service,2022,26,4.1,Yes
+R0062,Thai Casual 62,L021,C011,4.5,715,600,No,Yes,Casual Dining,2021,29,4.1,Yes
+R0063,Japanese Cafe 63,L011,C012,3.4,101,700,No,Yes,Cafe,2014,41,4.5,Yes
+R0064,Fast Food Casual 64,L026,C008,3.5,138,1000,Yes,Yes,Casual Dining,2011,30,3.1,Yes
+R0065,Biryani Quick 65,L013,C007,4.7,499,700,Yes,No,Quick Service,2012,27,3.6,Yes
+R0066,Bakery Casual 66,L004,C010,3.3,333,600,Yes,No,Casual Dining,2005,39,3.2,No
+R0067,Chinese Cafe 67,L009,C004,3.8,148,900,Yes,No,Cafe,2022,32,2.3,Yes
+R0068,Fast Food Casual 68,L008,C008,3.7,154,800,Yes,No,Casual Dining,2011,31,3.0,Yes
+R0069,Mexican Quick 69,L038,C006,4.5,373,400,Yes,No,Quick Service,2019,31,3.3,Yes
+R0070,Kerala Casual 70,L047,C014,3.4,156,400,No,Yes,Casual Dining,2009,24,4.1,Yes
+R0071,Mughlai Casual 71,L044,C015,3.2,174,450,No,No,Casual Dining,2005,35,4.0,Yes
+R0072,Thai Quick 72,L036,C011,3.8,654,600,No,No,Quick Service,2005,36,3.6,Yes
+R0073,Desserts Cafe 73,L036,C016,3.5,131,1300,Yes,No,Cafe,2010,31,3.7,Yes
+R0074,Mughlai Bakery 74,L043,C015,3.8,341,1050,Yes,No,Bakery,2017,25,3.4,Yes
+R0075,Kerala Casual 75,L034,C014,3.5,341,600,Yes,Yes,Casual Dining,2004,39,3.8,Yes
+R0076,Korean Food 76,L017,C019,4.5,365,400,Yes,No,Food Court,2018,46,3.3,Yes
+R0077,Mughlai Food 77,L027,C015,3.9,869,400,Yes,Yes,Food Court,2010,23,4.1,Yes
+R0078,Biryani Quick 78,L004,C007,4.6,100,500,No,No,Quick Service,2011,29,4.3,Yes
+R0079,Indian Quick 79,L014,C001,3.5,186,450,Yes,No,Quick Service,2019,33,3.2,Yes
+R0080,Thai Casual 80,L036,C011,3.5,480,1100,No,No,Casual Dining,2007,31,4.0,Yes
+R0081,Thai Casual 81,L030,C011,3.8,132,300,Yes,Yes,Casual Dining,2024,34,3.6,Yes
+R0082,Japanese Casual 82,L027,C012,3.6,158,1350,No,Yes,Casual Dining,2010,36,4.7,Yes
+R0083,Continental Cafe 83,L047,C013,4.6,50,600,Yes,No,Cafe,2000,34,3.7,Yes
+R0084,Seafood Food 84,L042,C017,4.3,275,800,No,No,Food Court,2009,37,3.2,Yes
+R0085,Continental Bakery 85,L045,C013,4.9,219,650,Yes,Yes,Bakery,2004,15,4.7,Yes
+R0086,Street Food Food 86,L020,C020,3.6,746,700,Yes,No,Food Court,2019,54,3.7,Yes
+R0087,Chinese Casual 87,L048,C004,4.2,96,1000,No,No,Casual Dining,2018,40,3.5,Yes
+R0088,Fast Food Casual 88,L037,C008,3.6,444,500,Yes,No,Casual Dining,2000,50,3.0,Yes
+R0089,Desserts Fine 89,L047,C016,4.0,203,400,Yes,No,Fine Dining,2006,47,4.1,Yes
+R0090,Seafood Cafe 90,L015,C017,4.3,537,1150,Yes,No,Cafe,2024,20,3.4,Yes
+R0091,Street Food Fine 91,L031,C020,4.2,115,550,Yes,No,Fine Dining,2015,35,2.8,Yes
+R0092,Bakery Food 92,L003,C010,3.7,74,700,Yes,No,Food Court,2005,41,4.5,Yes
+R0093,Thai Casual 93,L037,C011,3.7,89,250,No,No,Casual Dining,2012,40,2.8,Yes
+R0094,Kerala Fine 94,L045,C014,3.7,90,1300,Yes,No,Fine Dining,2005,33,4.3,Yes
+R0095,Korean Quick 95,L043,C019,3.9,523,1300,Yes,No,Quick Service,2006,16,3.8,Yes
+R0096,Kerala Quick 96,L021,C014,2.9,269,450,No,No,Quick Service,2012,30,3.4,Yes
+R0097,Desserts Cafe 97,L048,C016,3.6,220,500,No,Yes,Cafe,2001,38,4.2,Yes
+R0098,Desserts Casual 98,L014,C016,3.9,767,1500,Yes,No,Casual Dining,2001,37,3.4,Yes
+R0099,Desserts Casual 99,L012,C016,2.2,510,1450,Yes,No,Casual Dining,2015,16,4.4,Yes
+R0100,BBQ Food 100,L011,C018,3.5,84,950,No,No,Food Court,2014,49,3.0,Yes
+R0101,Seafood Casual 101,L007,C017,2.7,149,850,Yes,No,Casual Dining,2016,44,3.6,Yes
+R0102,Kerala Cafe 102,L004,C014,4.2,213,300,No,No,Cafe,2022,27,3.3,Yes
+R0103,Bakery Bakery 103,L008,C010,3.6,573,700,Yes,Yes,Bakery,2002,40,4.3,Yes
+R0104,Seafood Food 104,L004,C017,4.1,446,350,Yes,Yes,Food Court,2014,37,3.2,Yes
+R0105,Mexican Quick 105,L011,C006,2.5,197,600,Yes,Yes,Quick Service,2016,37,3.7,Yes
+R0106,BBQ Fine 106,L014,C018,3.6,151,1050,Yes,Yes,Fine Dining,2016,35,4.4,Yes
+R0107,Biryani Casual 107,L035,C007,3.7,140,1100,Yes,No,Casual Dining,2001,30,3.7,Yes
+R0108,Thai Casual 108,L016,C011,4.6,34,1150,No,No,Casual Dining,2004,22,3.8,Yes
+R0109,Desserts Fine 109,L031,C016,3.6,240,450,Yes,Yes,Fine Dining,2009,25,3.1,Yes
+R0110,Japanese Casual 110,L019,C012,3.6,755,550,No,No,Casual Dining,2015,32,4.2,Yes
+R0111,Thai Casual 111,L033,C011,4.7,197,250,No,No,Casual Dining,2017,43,3.5,Yes
+R0112,Continental Fine 112,L042,C013,4.1,474,400,Yes,Yes,Fine Dining,2019,22,3.3,Yes
+R0113,Mexican Food 113,L002,C006,3.8,319,550,Yes,Yes,Food Court,2001,44,3.8,Yes
+R0114,Japanese Quick 114,L040,C012,2.9,393,400,Yes,No,Quick Service,2005,40,4.6,Yes
+R0115,Biryani Casual 115,L035,C007,3.8,57,1600,No,No,Casual Dining,2023,31,3.6,Yes
+R0116,Japanese Cafe 116,L035,C012,3.1,138,1150,Yes,No,Cafe,2000,43,3.9,Yes
+R0117,BBQ Casual 117,L023,C018,3.5,114,1100,Yes,Yes,Casual Dining,2000,32,3.7,Yes
+R0118,Indian Casual 118,L016,C001,4.3,1181,550,Yes,No,Casual Dining,2017,24,3.8,Yes
+R0119,Fast Food Quick 119,L045,C008,3.2,474,900,Yes,No,Quick Service,2014,30,4.1,Yes
+R0120,Bakery Quick 120,L005,C010,3.7,99,650,Yes,Yes,Quick Service,2009,56,3.6,Yes
+R0121,Seafood Fine 121,L002,C017,4.2,241,500,No,No,Fine Dining,2016,29,3.4,Yes
+R0122,Continental Cafe 122,L021,C013,4.1,140,1000,No,No,Cafe,2022,27,3.4,Yes
+R0123,Biryani Casual 123,L007,C007,3.7,290,850,No,No,Casual Dining,2018,25,3.0,Yes
+R0124,Fast Food Casual 124,L047,C008,3.3,1048,600,No,Yes,Casual Dining,2021,32,4.2,Yes
+R0125,Chinese Cafe 125,L033,C004,2.7,189,400,No,Yes,Cafe,2024,15,3.8,Yes
+R0126,BBQ Quick 126,L021,C018,4.1,162,650,Yes,No,Quick Service,2023,43,3.9,Yes
+R0127,Thai Bakery 127,L023,C011,2.9,52,1150,No,No,Bakery,2016,44,3.4,Yes
+R0128,Biryani Casual 128,L008,C007,3.8,90,450,No,No,Casual Dining,2011,46,3.8,Yes
+R0129,,L048,C018,4.2,180,350,No,No,Fine Dining,2007,33,3.0,Yes
+R0130,North Indian Casual 130,L012,C002,3.5,17,600,No,No,Casual Dining,2009,36,3.1,Yes
+R0131,Chinese Casual 131,L043,C004,3.5,173,1050,Yes,No,Casual Dining,2000,37,3.9,Yes
+R0132,North Indian Fine 132,L014,C002,4.1,1269,700,No,No,Fine Dining,2000,41,3.7,Yes
+R0133,BBQ Fine 133,L010,C018,3.6,93,500,Yes,No,Fine Dining,2016,38,4.1,Yes
+R0134,Cafe Casual 134,L018,C009,2.7,1257,400,Yes,No,Casual Dining,2015,22,3.3,No
+R0135,Indian Cafe 135,L034,C001,3.3,189,600,Yes,No,Cafe,2003,24,3.6,Yes
+R0136,Italian Cafe 136,L036,C005,3.1,42,650,No,No,Cafe,2002,30,3.0,Yes
+R0137,Street Food Casual 137,L026,C020,2.8,62,1000,No,Yes,Casual Dining,2006,21,4.4,Yes
+R0138,North Indian Casual 138,L010,C002,3.9,86,550,No,Yes,Casual Dining,2000,39,3.7,Yes
+R0139,Indian Casual 139,L045,C001,3.5,174,550,Yes,Yes,Casual Dining,2008,41,4.1,Yes
+R0140,Korean Fine 140,L006,C019,4.1,137,300,No,No,Fine Dining,2013,41,4.0,Yes
+R0141,Mexican Quick 141,L014,C006,4.1,458,650,No,No,Quick Service,2008,43,4.3,No
+R0142,Fast Food Cafe 142,L048,C008,4.4,47,950,No,Yes,Cafe,2021,44,3.6,Yes
+R0143,Chinese Quick 143,L012,C004,4.6,177,900,Yes,No,Quick Service,2013,25,4.0,Yes
+R0144,Continental Cafe 144,L009,C013,3.6,203,1150,Yes,No,Cafe,2019,27,3.5,Yes
+R0145,Chinese Food 145,L047,C004,3.6,130,850,Yes,Yes,Food Court,2008,24,3.3,Yes
+R0146,Mughlai Quick 146,L022,C015,3.6,167,250,yes,No,Quick Service,2010,39,3.0,Yes
+R0147,North Indian Casual 147,L011,C002,3.3,161,650,No,No,Casual Dining,2019,19,2.9,Yes
+R0148,South Indian Bakery 148,L012,C003,3.3,64,400,No,No,Bakery,2023,22,3.8,Yes
+R0149,Thai Fine 149,L002,C011,3.4,77,1100,Yes,Yes,Fine Dining,2013,52,3.7,Yes
+R0150,Bakery Quick 150,L008,C010,3.7,78,500,Yes,No,Quick Service,2022,32,3.5,No
+R0151,Street Food Food 151,L046,C020,,236,400,Yes,Yes,Food Court,2022,19,3.3,Yes
+R0152,Cafe Fine 152,L014,C009,3.4,59,500,Yes,No,Fine Dining,2011,39,4.3,Yes
+R0153,Bakery Casual 153,L016,C010,3.3,644,1050,Yes,No,Casual Dining,2018,22,3.5,Yes
+R0154,Korean Food 154,L033,C019,3.6,258,900,Yes,No,Food Court,2016,21,3.2,Yes
+R0155,Street Food Quick 155,L034,C020,3.3,220,550,Yes,No,Quick Service,2006,38,3.7,Yes
+R0156,Desserts Fine 156,L003,C016,4.9,115,800,Yes,No,Fine Dining,2005,22,3.1,Yes
+R0157,Street Food Quick 157,L024,C020,4.9,177,600,Yes,No,Quick Service,2005,33,3.1,Yes
+R0158,Japanese Casual 158,L036,C012,4.1,1024,500,Yes,No,Casual Dining,2021,44,3.9,Yes
+R0159,Kerala Bakery 159,L009,C014,,278,1300,No,No,Bakery,2022,18,3.1,Yes
+R0160,Chinese Quick 160,L030,C004,4.1,330,750,Yes,No,Quick Service,2023,42,4.6,No
+R0161,Continental Cafe 161,L026,C013,3.3,1063,450,Yes,No,Cafe,2014,27,4.2,Yes
+R0162,Biryani Quick 162,L042,C007,,1085,600,Yes,No,Quick Service,2021,30,3.2,Yes
+R0163,Bakery Fine 163,L043,C010,3.0,249,750,No,Yes,Fine Dining,2020,25,3.4,Yes
+R0164,North Indian Fine 164,L035,C002,3.2,297,500,Yes,No,Fine Dining,2015,36,3.4,Yes
+R0165,South Indian Quick 165,L008,C003,4.1,519,500,Yes,No,Quick Service,2004,18,3.4,Yes
+R0166,South Indian Cafe 166,L045,C003,3.5,125,500,No,No,Cafe,2010,20,2.7,Yes
+R0167,Continental Food 167,L013,C013,3.4,233,800,Yes,No,Food Court,2007,49,4.1,Yes
+R0168,Biryani Casual 168,L020,C007,3.2,4882,1050,Yes,No,Casual Dining,2011,26,3.3,Yes
+R0169,Korean Cafe 169,L005,C019,3.3,222,450,Yes,No,Cafe,2015,43,3.7,Yes
+R0170,Indian Food 170,L043,C001,3.6,121,700,yes,Yes,Food Court,2020,32,3.9,Yes
+R0171,Japanese Food 171,L024,C012,4.1,812,1350,Yes,No,Food Court,2009,20,3.7,No
+R0172,Mughlai Casual 172,L011,C015,4.3,987,250,Yes,No,Casual Dining,2001,40,3.7,Yes
+R0173,Desserts Casual 173,L007,C016,3.6,62,400,No,No,Casual Dining,2014,44,3.2,Yes
+R0174,Fast Food Casual 174,L001,C008,3.5,186,750,No,No,Casual Dining,2018,42,4.1,Yes
+R0175,Indian Food 175,L028,C001,4.6,144,700,Yes,No,Food Court,2015,53,4.3,Yes
+R0176,,L035,C011,4.1,442,350,Yes,Yes,Fine Dining,2016,37,3.3,Yes
+R0177,Italian Fine 177,L015,C005,3.3,1518,500,yes,No,Fine Dining,2007,23,2.6,Yes
+R0178,Chinese Cafe 178,L030,C004,2.9,643,1400,Yes,No,Cafe,2002,38,4.4,Yes
+R0179,Mexican Cafe 179,L040,C006,,175,600,Yes,Yes,Cafe,2012,35,2.8,Yes
+R0180,Seafood Cafe 180,L033,C017,4.2,347,550,No,No,Cafe,2007,17,5.0,Yes
+R0181,Fast Food Cafe 181,L033,C008,2.9,241,250,No,No,Cafe,2018,38,3.5,Yes
+R0182,Italian Bakery 182,L008,C005,3.3,169,300,No,No,Bakery,2005,35,3.5,Yes
+R0183,Korean Bakery 183,L035,C019,3.3,371,700,Yes,No,Bakery,2014,26,3.7,Yes
+R0184,Fast Food Cafe 184,L029,C008,4.9,448,650,Yes,Yes,Cafe,2008,42,3.9,Yes
+R0185,Mughlai Quick 185,L030,C015,3.4,220,1150,yes,No,Quick Service,2013,42,4.1,Yes
+R0186,Korean Casual 186,L030,C019,2.8,568,700,Yes,No,Casual Dining,2006,36,4.0,Yes
+R0187,Cafe Food 187,L047,C009,3.4,334,650,Yes,Yes,Food Court,2012,38,3.7,Yes
+R0188,Street Food Casual 188,L034,C020,4.5,118,1050,Yes,No,Casual Dining,2004,45,4.3,Yes
+R0189,Bakery Casual 189,L024,C010,3.8,221,1050,No,No,Casual Dining,2008,28,2.8,Yes
+R0190,Biryani Casual 190,L001,C007,,1657,750,No,No,Casual Dining,2019,46,4.5,Yes
+R0191,Japanese Casual 191,L027,C012,4.3,347,550,No,No,Casual Dining,2010,37,3.8,Yes
+R0192,BBQ Casual 192,L013,C018,3.0,273,500,No,Yes,Casual Dining,2002,58,3.0,Yes
+R0193,Desserts Fine 193,L004,C016,3.9,296,550,Yes,Yes,Fine Dining,2003,16,4.5,Yes
+R0194,Mexican Quick 194,L017,C006,3.8,172,1000,No,No,Quick Service,2010,46,3.1,Yes
+R0195,North Indian Quick 195,L038,C002,3.8,75,450,Yes,No,Quick Service,2015,38,3.8,Yes
+R0196,Chinese Casual 196,L009,C004,3.3,1034,600,Yes,Yes,Casual Dining,2020,21,3.1,Yes
+R0197,Continental Bakery 197,L040,C013,3.2,58,300,Yes,Yes,Bakery,2024,43,3.5,Yes
+R0198,Street Food Cafe 198,L005,C020,3.7,210,700,Yes,No,Cafe,2020,31,3.5,Yes
+R0199,North Indian Quick 199,L016,C002,3.1,1387,400,No,Yes,Quick Service,2022,29,4.5,Yes
+R0200,Japanese Casual 200,L044,C012,4.6,102,650,Yes,Yes,Casual Dining,2003,18,3.2,Yes
+R0201,South Indian Cafe 201,L008,C003,3.3,98,350,No,No,Cafe,2024,47,3.8,Yes
+R0202,Bakery Bakery 202,L013,C010,3.5,98,800,No,Yes,Bakery,2005,23,4.5,Yes
+R0203,South Indian Casual 203,L012,C003,3.7,117,200,No,No,Casual Dining,2016,33,4.1,No
+R0204,Italian Fine 204,L044,C005,3.4,61,950,Yes,No,Fine Dining,2001,24,4.1,Yes
+R0205,Continental Food 205,L023,C013,4.4,152,650,yes,Yes,Food Court,2022,24,4.0,Yes
+R0206,Indian Quick 206,L022,C001,2.7,92,700,No,No,Quick Service,2000,30,4.0,Yes
+R0207,Fast Food Cafe 207,L046,C008,3.3,56,600,No,Yes,Cafe,2010,15,3.3,Yes
+R0208,Mughlai Food 208,L034,C015,3.9,371,950,Yes,Yes,Food Court,2003,28,3.6,Yes
+R0209,Thai Casual 209,L035,C011,3.7,342,950,No,Yes,Casual Dining,2000,31,3.4,Yes
+R0210,Continental Quick 210,L026,C013,3.8,101,250,No,No,Quick Service,2017,55,4.1,No
+R0211,Thai Bakery 211,L043,C011,3.3,538,350,No,No,Bakery,2000,29,3.6,No
+R0212,Fast Food Cafe 212,L025,C008,3.8,61,550,Yes,No,Cafe,2022,25,3.7,Yes
+R0213,Thai Casual 213,L018,C011,3.4,1102,400,Yes,Yes,Casual Dining,2016,49,3.3,Yes
+R0214,Italian Casual 214,L026,C005,3.9,296,600,Yes,No,Casual Dining,2002,15,3.6,No
+R0215,Mexican Casual 215,L006,C006,3.8,150,300,No,No,Casual Dining,2009,15,3.6,Yes
+R0216,Mexican Casual 216,L018,C006,3.0,317,-100,Yes,No,Casual Dining,2019,43,3.9,Yes
+R0217,Cafe Casual 217,L017,C009,3.3,258,1000,Yes,Yes,Casual Dining,2019,23,3.0,Yes
+R0218,Fast Food Bakery 218,L010,C008,3.5,104,-100,Yes,No,Bakery,2008,40,3.2,Yes
+R0219,North Indian Fine 219,L035,C002,3.2,440,550,No,No,Fine Dining,2002,40,3.8,Yes
+R0220,Seafood Fine 220,L027,C017,3.3,404,950,No,Yes,Fine Dining,2006,40,4.6,No
+R0221,Thai Quick 221,L016,C011,4.6,162,800,Yes,Yes,Quick Service,2018,24,3.4,Yes
+R0222,Japanese Bakery 222,L042,C012,3.8,432,950,No,No,Bakery,2020,44,3.5,Yes
+R0223,Japanese Quick 223,L023,C012,4.6,263,550,Yes,Yes,Quick Service,2002,15,3.8,No
+R0224,Mexican Fine 224,L040,C006,3.6,77,350,No,No,Fine Dining,2007,37,4.4,Yes
+R0225,Desserts Cafe 225,L040,C016,3.2,311,-100,Yes,No,Cafe,2012,32,4.3,Yes
+R0226,Italian Quick 226,L005,C005,3.5,373,500,Yes,No,Quick Service,2021,31,3.5,Yes
+R0227,Kerala Cafe 227,L042,C014,3.2,67,1250,Yes,No,Cafe,2012,32,4.3,Yes
+R0228,Thai Quick 228,L001,C011,2.7,662,1150,Yes,Yes,Quick Service,2022,31,3.8,Yes
+R0229,Seafood Casual 229,L045,C017,3.0,18,500,Yes,No,Casual Dining,2018,47,4.1,Yes
+R0230,Fast Food Casual 230,L010,C008,4.0,104,300,No,Yes,Casual Dining,2023,29,3.9,Yes
+R0231,Biryani Quick 231,L003,C007,3.4,406,400,Yes,No,Quick Service,2007,40,3.6,Yes
+R0232,Kerala Bakery 232,L042,C014,4.2,1398,850,Yes,No,Bakery,2002,17,3.9,Yes
+R0233,South Indian Casual 233,L021,C003,3.1,136,2250,Yes,Yes,Casual Dining,2011,15,4.3,Yes
+R0234,Cafe Quick 234,L030,C009,2.9,44,900,Yes,No,Quick Service,2002,30,3.1,Yes
+R0235,Korean Food 235,L030,C019,4.4,435,700,Yes,No,Food Court,2012,34,3.5,Yes
+R0236,Bakery Fine 236,L023,C010,3.4,48,550,Yes,No,Fine Dining,2019,33,4.0,Yes
+R0237,Bakery Casual 237,L043,C010,3.6,81,500,Yes,No,Casual Dining,2007,57,4.2,Yes
+R0238,Desserts Food 238,L032,C016,4.5,298,400,No,No,Food Court,2012,54,3.6,Yes
+R0239,Kerala Casual 239,L043,C014,3.4,166,550,No,No,Casual Dining,2019,28,4.3,Yes
+R0240,Fast Food Casual 240,L032,C008,3.6,93,950,Yes,Yes,Casual Dining,2017,49,3.6,Yes
+R0241,Continental Cafe 241,L022,C013,3.7,77,1000,Yes,No,Cafe,2023,24,3.3,Yes
+R0242,Seafood Food 242,L043,C017,3.0,71,700,Yes,Yes,Food Court,2020,38,4.3,Yes
+R0243,Korean Quick 243,L022,C019,4.5,178,300,Yes,No,Quick Service,2020,26,3.3,No
+R0244,Seafood Casual 244,L024,C017,3.1,43,450,Yes,No,Casual Dining,2009,34,3.5,Yes
+R0245,Continental Cafe 245,L031,C013,3.6,207,400,Yes,No,Cafe,2001,39,4.2,Yes
+R0246,Desserts Cafe 246,L035,C016,4.1,580,350,Yes,No,Cafe,2023,39,3.2,Yes
+R0247,Mexican Casual 247,L037,C006,3.9,599,450,No,No,Casual Dining,2021,34,3.9,Yes
+R0248,BBQ Food 248,L001,C018,3.9,171,1100,Yes,No,Food Court,2010,52,3.9,Yes
+R0249,South Indian Fine 249,L036,C003,3.9,725,700,No,Yes,Fine Dining,2020,30,4.3,No
+R0250,North Indian Bakery 250,L048,C002,4.7,957,550,Yes,Yes,Bakery,2004,18,4.1,Yes
+R0251,Indian Cafe 251,L021,C001,3.4,65,650,Yes,No,Cafe,2003,18,3.3,Yes
+R0252,Bakery Bakery 252,L025,C010,2.7,391,750,Yes,No,Bakery,2007,41,3.0,Yes
+R0253,Bakery Casual 253,L014,C010,,178,1100,No,No,Casual Dining,2005,17,3.9,Yes
+R0254,Korean Quick 254,L016,C019,2.5,157,350,Yes,Yes,Quick Service,2007,30,3.4,Yes
+R0255,Mughlai Casual 255,L018,C015,2.3,17,2000,Yes,No,Casual Dining,2015,32,3.8,Yes
+R0256,Mughlai Fine 256,L013,C015,3.0,45,1050,Yes,No,Fine Dining,2015,22,3.0,Yes
+R0257,Japanese Fine 257,L031,C012,3.8,359,300,No,No,Fine Dining,2016,45,4.3,Yes
+R0258,Mexican Fine 258,L003,C006,3.6,183,750,Yes,No,Fine Dining,2001,48,3.7,Yes
+R0259,Thai Casual 259,L010,C011,3.5,40,1100,Yes,No,Casual Dining,2020,45,3.2,Yes
+R0260,BBQ Food 260,L039,C018,4.9,283,850,Yes,No,Food Court,2003,30,4.2,Yes
+R0261,Street Food Bakery 261,L046,C020,4.8,274,1250,Yes,No,Bakery,2020,21,3.2,Yes
+R0262,BBQ Cafe 262,L037,C018,3.9,84,800,No,Yes,Cafe,2024,33,3.1,Yes
+R0263,Mughlai Casual 263,L030,C015,3.7,70,650,Yes,No,Casual Dining,2022,31,3.6,Yes
+R0264,Continental Quick 264,L035,C013,,1208,600,No,No,Quick Service,2013,40,3.0,Yes
+R0265,Thai Casual 265,L010,C011,3.7,2824,950,No,Yes,Casual Dining,2023,52,3.2,Yes
+R0266,Kerala Casual 266,L040,C014,3.3,138,400,Yes,No,Casual Dining,2013,21,4.0,Yes
+R0267,Biryani Cafe 267,L003,C007,4.8,229,550,Yes,Yes,Cafe,2011,31,3.7,Yes
+R0268,Continental Bakery 268,L005,C013,3.9,187,700,No,No,Bakery,2024,41,4.5,Yes
+R0269,Cafe Casual 269,L044,C009,3.5,1484,1000,Yes,No,Casual Dining,2013,32,5.0,Yes
+R0270,South Indian Food 270,L022,C003,3.9,106,1150,Yes,No,Food Court,2022,21,3.6,Yes
+R0271,South Indian Casual 271,L032,C003,4.1,212,950,No,No,Casual Dining,2012,48,4.4,Yes
+R0272,Mexican Cafe 272,L038,C006,3.4,186,1200,Yes,No,Cafe,2018,47,3.9,Yes
+R0273,Continental Casual 273,L001,C013,3.2,272,900,No,Yes,Casual Dining,2000,34,3.0,Yes
+R0274,Japanese Casual 274,L005,C012,3.1,200,500,Yes,No,Casual Dining,2018,42,3.7,Yes
+R0275,Biryani Quick 275,L019,C007,4.2,309,600,No,No,Quick Service,2019,42,3.6,Yes
+R0276,Korean Quick 276,L048,C019,3.5,876,750,No,No,Quick Service,2004,39,3.9,Yes
+R0277,Korean Casual 277,L046,C019,3.0,1276,600,yes,No,Casual Dining,2007,27,3.7,Yes
+R0278,Bakery Casual 278,L040,C010,3.4,30,1050,Yes,No,Casual Dining,2001,33,4.2,Yes
+R0279,North Indian Food 279,L034,C002,4.0,586,650,yes,No,Food Court,2002,43,4.1,Yes
+R0280,Japanese Food 280,L045,C012,3.2,693,500,Yes,No,Food Court,2007,31,3.4,Yes
+R0281,Japanese Food 281,L030,C012,2.9,73,400,Yes,No,Food Court,2019,42,5.0,Yes
+R0282,South Indian Food 282,L047,C003,4.1,1981,300,No,No,Food Court,2016,36,3.6,Yes
+R0283,Biryani Casual 283,L026,C007,3.5,587,700,Yes,No,Casual Dining,2019,25,4.0,Yes
+R0284,Cafe Food 284,L034,C009,3.2,132,800,No,Yes,Food Court,2011,26,3.1,Yes
+R0285,Cafe Quick 285,L027,C009,4.6,36,400,Yes,No,Quick Service,2019,28,2.9,Yes
+R0286,Bakery Casual 286,L047,C010,3.3,21,650,Yes,No,Casual Dining,2005,35,3.9,Yes
+R0287,Mexican Quick 287,L016,C006,2.9,499,600,No,Yes,Quick Service,2017,15,4.3,Yes
+R0288,Bakery Fine 288,L013,C010,3.4,305,450,No,No,Fine Dining,2003,20,4.2,Yes
+R0289,Chinese Fine 289,L040,C004,3.9,619,1450,No,No,Fine Dining,2003,31,4.3,Yes
+R0290,Continental Casual 290,L002,C013,3.5,319,500,No,No,Casual Dining,2003,45,3.5,Yes
+R0291,Kerala Bakery 291,L040,C014,3.2,157,1200,No,No,Bakery,2002,30,4.0,Yes
+R0292,South Indian Quick 292,L035,C003,4.3,466,450,Yes,No,Quick Service,2018,33,3.0,Yes
+R0293,Italian Bakery 293,L045,C005,3.8,272,700,No,No,Bakery,2005,30,3.8,Yes
+R0294,Fast Food Food 294,L023,C008,4.5,240,1450,Yes,No,Food Court,2022,41,3.1,Yes
+R0295,Korean Casual 295,L009,C019,2.8,185,1000,Yes,Yes,Casual Dining,2013,22,3.6,Yes
+R0296,Fast Food Casual 296,L020,C008,2.9,585,750,No,Yes,Casual Dining,2009,47,4.2,Yes
+R0297,North Indian Quick 297,L009,C002,3.7,224,950,Yes,No,Quick Service,2001,29,3.5,No
+R0298,Indian Casual 298,L019,C001,3.7,341,1400,Yes,No,Casual Dining,2009,30,3.3,Yes
+R0299,Mughlai Casual 299,L002,C015,3.8,23,350,Yes,No,Casual Dining,2010,50,2.8,Yes
+R0300,Thai Quick 300,L009,C011,3.3,852,1450,Yes,Yes,Quick Service,2010,29,3.8,Yes
+R0301,Seafood Casual 301,L016,C017,2.0,56,400,Yes,No,Casual Dining,2017,41,3.8,Yes
+R0302,Chinese Casual 302,L048,C004,4.2,29,400,No,No,Casual Dining,2002,26,3.8,Yes
+R0303,Mexican Cafe 303,L029,C006,3.1,470,750,No,No,Cafe,2024,42,3.7,Yes
+R0304,Street Food Food 304,L020,C020,2.6,159,400,Yes,Yes,Food Court,2024,25,3.5,Yes
+R0305,Seafood Casual 305,L013,C017,3.3,466,600,Yes,No,Casual Dining,2017,35,4.5,Yes
+R0306,Korean Quick 306,L003,C019,3.2,268,400,No,No,Quick Service,2002,34,3.3,Yes
+R0307,Desserts Casual 307,L014,C016,3.3,139,450,No,No,Casual Dining,2015,52,3.7,Yes
+R0308,Korean Fine 308,L017,C019,4.6,62,450,yes,No,Fine Dining,2014,39,3.7,Yes
+R0309,North Indian Casual 309,L046,C002,3.3,391,1200,Yes,No,Casual Dining,2019,52,3.3,Yes
+R0310,North Indian Casual 310,L018,C002,2.7,108,200,Yes,No,Casual Dining,2021,33,3.6,Yes
+R0311,Indian Quick 311,L022,C001,4.1,873,700,No,Yes,Quick Service,2003,33,3.8,Yes
+R0312,Seafood Cafe 312,L031,C017,2.8,41,1450,No,No,Cafe,2004,42,3.8,Yes
+R0313,Cafe Cafe 313,L007,C009,1.9,349,400,Yes,Yes,Cafe,2002,26,3.0,Yes
+R0314,Mexican Cafe 314,L022,C006,3.7,270,800,Yes,Yes,Cafe,2020,40,3.9,Yes
+R0315,Biryani Quick 315,L048,C007,3.3,1581,600,No,No,Quick Service,2005,31,3.6,Yes
+R0316,Cafe Casual 316,L003,C009,3.0,787,600,Yes,Yes,Casual Dining,2012,49,3.3,Yes
+R0317,Desserts Cafe 317,L040,C016,3.0,998,850,Yes,No,Cafe,2012,38,4.7,Yes
+R0318,Bakery Quick 318,L009,C010,3.4,129,1350,No,No,Quick Service,2006,34,3.7,Yes
+R0319,Continental Cafe 319,L028,C013,4.2,93,550,Yes,Yes,Cafe,2005,39,3.1,Yes
+R0320,Kerala Quick 320,L004,C014,3.2,182,750,Yes,No,Quick Service,2014,52,4.2,Yes
+R0321,,L039,C011,4.1,83,950,Yes,No,Casual Dining,2021,57,3.4,Yes
+R0322,Kerala Quick 322,L044,C014,4.0,231,450,Yes,Yes,Quick Service,2007,38,3.3,Yes
+R0323,Chinese Casual 323,L026,C004,3.4,42,700,Yes,No,Casual Dining,2024,39,3.9,Yes
+R0324,Continental Quick 324,L033,C013,3.8,170,1400,Yes,Yes,Quick Service,2003,32,4.1,Yes
+R0325,Mexican Quick 325,L021,C006,3.9,629,500,No,No,Quick Service,2016,22,3.5,Yes
+R0326,Desserts Casual 326,L016,C016,3.8,599,750,Yes,No,Casual Dining,2019,25,4.3,No
+R0327,Cafe Cafe 327,L037,C009,4.4,157,550,No,Yes,Cafe,2011,24,4.1,No
+R0328,Fast Food Food 328,L028,C008,4.1,517,1550,Yes,No,Food Court,2017,38,4.5,Yes
+R0329,Chinese Fine 329,L034,C004,2.7,434,1100,No,No,Fine Dining,2013,40,3.6,Yes
+R0330,Continental Casual 330,L018,C013,2.4,61,750,Yes,No,Casual Dining,2021,23,3.7,Yes
+R0331,Biryani Casual 331,L027,C007,3.4,938,900,Yes,Yes,Casual Dining,2013,48,3.2,Yes
+R0332,Cafe Casual 332,L015,C009,3.5,64,550,Yes,Yes,Casual Dining,2014,15,3.6,No
+R0333,Biryani Bakery 333,L007,C007,4.0,80,650,Yes,No,Bakery,2007,27,4.4,Yes
+R0334,Fast Food Food 334,L002,C008,2.9,388,850,No,No,Food Court,2014,30,4.6,Yes
+R0335,BBQ Cafe 335,L016,C018,4.6,272,800,Yes,No,Cafe,2023,39,4.8,No
+R0336,Mughlai Food 336,L026,C015,4.0,514,250,Yes,No,Food Court,2000,26,4.5,Yes
+R0337,Street Food Quick 337,L045,C020,4.0,429,450,Yes,No,Quick Service,2008,18,3.2,Yes
+R0338,BBQ Fine 338,L006,C018,4.4,134,750,Yes,Yes,Fine Dining,2015,32,3.7,Yes
+R0339,Mughlai Cafe 339,L020,C015,3.2,61,550,No,Yes,Cafe,2004,23,4.0,No
+R0340,Street Food Casual 340,L043,C020,4.1,460,900,Yes,No,Casual Dining,2011,28,3.1,Yes
+R0341,Korean Quick 341,L048,C019,3.2,258,650,No,No,Quick Service,2013,43,3.3,Yes
+R0342,North Indian Casual 342,L028,C002,4.1,100,450,Yes,No,Casual Dining,2012,45,2.7,Yes
+R0343,Cafe Cafe 343,L036,C009,3.2,405,850,No,No,Cafe,2013,20,2.8,Yes
+R0344,BBQ Cafe 344,L025,C018,4.0,1188,1350,Yes,Yes,Cafe,2016,36,3.0,Yes
+R0345,Chinese Bakery 345,L016,C004,3.4,124,650,No,Yes,Bakery,2004,52,2.7,Yes
+R0346,Korean Quick 346,L022,C019,3.9,1019,1100,Yes,No,Quick Service,2014,46,3.6,Yes
+R0347,Biryani Bakery 347,L045,C007,3.5,186,850,Yes,No,Bakery,2007,35,4.2,Yes
+R0348,Continental Casual 348,L041,C013,3.8,191,1000,Yes,Yes,Casual Dining,2011,26,4.2,Yes
+R0349,Street Food Casual 349,L031,C020,3.7,314,1650,Yes,No,Casual Dining,2018,29,3.7,Yes
+R0350,BBQ Cafe 350,L024,C018,4.9,114,700,Yes,No,Cafe,2013,17,4.6,Yes
+R0351,North Indian Fine 351,L040,C002,4.2,213,1150,Yes,No,Fine Dining,2001,19,3.1,Yes
+R0352,Chinese Food 352,L017,C004,4.0,212,350,Yes,No,Food Court,2023,44,3.3,Yes
+R0353,Biryani Bakery 353,L018,C007,2.7,463,950,Yes,Yes,Bakery,2023,27,3.4,Yes
+R0354,Bakery Fine 354,L013,C010,4.1,33,450,Yes,No,Fine Dining,2022,43,4.3,Yes
+R0355,Cafe Cafe 355,L029,C009,4.7,102,850,Yes,No,Cafe,2009,32,3.0,Yes
+R0356,Seafood Cafe 356,L021,C017,4.0,148,200,Yes,No,Cafe,2012,28,3.3,Yes
+R0357,,L007,C001,3.5,283,550,Yes,No,Cafe,2023,37,4.5,No
+R0358,Cafe Quick 358,L035,C009,4.0,3474,450,No,Yes,Quick Service,2017,27,3.4,Yes
+R0359,South Indian Food 359,L025,C003,3.1,73,800,Yes,Yes,Food Court,2004,31,3.7,Yes
+R0360,Thai Quick 360,L007,C011,2.4,57,650,No,Yes,Quick Service,2006,33,4.2,Yes
+R0361,Desserts Fine 361,L040,C016,3.6,201,700,Yes,No,Fine Dining,2012,35,3.9,Yes
+R0362,Street Food Casual 362,L002,C020,3.6,3165,300,No,No,Casual Dining,2002,26,3.8,Yes
+R0363,Cafe Bakery 363,L021,C009,,244,600,No,No,Bakery,2018,30,3.2,Yes
+R0364,Mexican Bakery 364,L011,C006,4.0,516,550,Yes,No,Bakery,2021,39,4.2,Yes
+R0365,Kerala Casual 365,L015,C014,3.1,394,500,Yes,No,Casual Dining,2004,42,3.8,Yes
+R0366,Bakery Casual 366,L025,C010,4.5,564,500,Yes,Yes,Casual Dining,2004,31,4.2,Yes
+R0367,BBQ Food 367,L035,C018,3.7,2570,500,Yes,No,Food Court,2007,24,3.7,Yes
+R0368,Cafe Quick 368,L012,C009,4.0,566,600,Yes,No,Quick Service,2018,37,4.7,Yes
+R0369,Korean Fine 369,L039,C019,4.6,120,800,No,Yes,Fine Dining,2022,39,3.2,Yes
+R0370,Kerala Quick 370,L044,C014,3.5,284,400,No,No,Quick Service,2008,57,3.0,Yes
+R0371,BBQ Food 371,L005,C018,3.6,1276,2750,Yes,No,Food Court,2000,45,4.2,Yes
+R0372,Mughlai Food 372,L007,C015,3.6,134,300,Yes,No,Food Court,2015,38,3.6,Yes
+R0373,Fast Food Food 373,L025,C008,3.9,25,450,Yes,No,Food Court,2012,44,3.7,Yes
+R0374,Indian Cafe 374,L022,C001,3.6,66,700,No,No,Cafe,2004,27,5.0,Yes
+R0375,Street Food Casual 375,L039,C020,4.3,534,850,No,No,Casual Dining,2018,45,2.9,Yes
+R0376,Biryani Cafe 376,L007,C007,3.3,138,300,Yes,Yes,Cafe,2003,25,4.1,Yes
+R0377,Thai Quick 377,L042,C011,3.7,659,700,Yes,No,Quick Service,2024,35,3.4,Yes
+R0378,Cafe Casual 378,L020,C009,4.2,427,400,No,No,Casual Dining,2008,53,3.9,Yes
+R0379,Cafe Casual 379,L011,C009,3.6,30,250,Yes,No,Casual Dining,2012,40,4.2,No
+R0380,Fast Food Quick 380,L036,C008,4.5,888,500,No,No,Quick Service,2011,30,4.6,Yes
+R0381,Fast Food Quick 381,L040,C008,3.9,128,800,Yes,No,Quick Service,2019,19,3.1,Yes
+R0382,Kerala Quick 382,L010,C014,3.0,71,550,No,No,Quick Service,2008,42,3.9,Yes
+R0383,Korean Fine 383,L019,C019,2.8,554,1300,Yes,Yes,Fine Dining,2015,23,4.8,Yes
+R0384,BBQ Casual 384,L029,C018,4.1,66,750,Yes,No,Casual Dining,2020,29,4.3,Yes
+R0385,Fast Food Fine 385,L047,C008,4.1,405,450,Yes,No,Fine Dining,2024,26,4.8,Yes
+R0386,North Indian Quick 386,L008,C002,3.0,106,650,Yes,No,Quick Service,2016,53,3.7,Yes
+R0387,Thai Cafe 387,L018,C011,3.0,73,750,Yes,No,Cafe,2009,25,3.1,Yes
+R0388,Thai Quick 388,L047,C011,3.5,93,950,No,No,Quick Service,2024,47,3.4,Yes
+R0389,BBQ Bakery 389,L006,C018,3.2,245,1200,No,No,Bakery,2011,18,4.4,Yes
+R0390,Japanese Bakery 390,L044,C012,2.5,189,900,Yes,No,Bakery,2012,21,2.9,Yes
+R0391,Desserts Casual 391,L012,C016,3.6,81,600,Yes,No,Casual Dining,2004,32,4.1,Yes
+R0392,Seafood Quick 392,L005,C017,4.8,370,700,Yes,Yes,Quick Service,2008,23,3.8,Yes
+R0393,Bakery Casual 393,L031,C010,3.1,609,450,No,No,Casual Dining,2014,26,3.1,Yes
+R0394,Fast Food Bakery 394,L008,C008,3.9,113,950,Yes,No,Bakery,2010,35,3.9,Yes
+R0395,Korean Casual 395,L027,C019,4.9,184,650,Yes,No,Casual Dining,2006,40,4.1,Yes
+R0396,Seafood Cafe 396,L018,C017,3.1,292,750,No,No,Cafe,2015,48,3.5,Yes
+R0397,Korean Quick 397,L034,C019,2.3,42,400,No,Yes,Quick Service,2002,25,4.8,Yes
+R0398,Continental Cafe 398,L036,C013,3.7,32,200,No,No,Cafe,2004,56,3.1,Yes
+R0399,Mexican Casual 399,L019,C006,2.9,319,1150,No,No,Casual Dining,2011,45,4.2,Yes
+R0400,BBQ Cafe 400,L004,C018,4.2,148,450,Yes,Yes,Cafe,2017,33,3.5,Yes
+R0401,South Indian Quick 401,L043,C003,3.8,178,600,Yes,No,Quick Service,2007,46,4.1,Yes
+R0402,Street Food Food 402,L040,C020,4.1,468,1000,No,No,Food Court,2002,27,3.6,Yes
+R0403,Indian Fine 403,L047,C001,4.2,1270,600,Yes,Yes,Fine Dining,2004,29,3.2,Yes
+R0404,Indian Quick 404,L020,C001,3.4,301,650,Yes,No,Quick Service,2022,34,3.6,Yes
+R0405,Seafood Food 405,L014,C017,,216,400,No,Yes,Food Court,2018,44,3.8,Yes
+R0406,Chinese Food 406,L011,C004,3.4,67,600,Yes,Yes,Food Court,2009,21,3.6,Yes
+R0407,Biryani Quick 407,L006,C007,3.7,670,550,Yes,Yes,Quick Service,2001,48,5.0,Yes
+R0408,Korean Quick 408,L031,C019,3.3,92,800,Yes,No,Quick Service,2000,45,3.7,No
+R0409,Street Food Cafe 409,L036,C020,2.9,103,600,No,No,Cafe,2012,24,3.7,Yes
+R0410,Mexican Casual 410,L032,C006,3.6,473,500,Yes,No,Casual Dining,2018,33,3.9,Yes
+R0411,Fast Food Casual 411,L007,C008,4.3,123,300,Yes,No,Casual Dining,2014,40,3.1,No
+R0412,Korean Cafe 412,L021,C019,4.4,333,250,Yes,No,Cafe,2023,29,3.1,Yes
+R0413,South Indian Cafe 413,L034,C003,4.0,334,550,Yes,No,Cafe,2008,60,3.4,Yes
+R0414,Street Food Cafe 414,L037,C020,2.9,242,700,Yes,No,Cafe,2024,32,3.0,No
+R0415,Indian Quick 415,L032,C001,3.4,126,1100,No,No,Quick Service,2018,32,3.4,Yes
+R0416,Fast Food Cafe 416,L006,C008,3.1,406,800,No,No,Cafe,2003,30,3.3,Yes
+R0417,Biryani Quick 417,L005,C007,3.1,159,1300,No,Yes,Quick Service,2011,42,4.4,Yes
+R0418,Chinese Casual 418,L016,C004,3.2,37,850,No,Yes,Casual Dining,2011,26,3.1,Yes
+R0419,Japanese Cafe 419,L029,C012,3.1,191,450,Yes,Yes,Cafe,2008,43,4.1,Yes
+R0420,Desserts Casual 420,L002,C016,4.3,106,1450,No,No,Casual Dining,2018,27,3.7,Yes
+R0421,Korean Quick 421,L024,C019,3.0,40,300,No,No,Quick Service,2011,39,3.3,Yes
+R0422,Thai Cafe 422,L024,C011,4.1,162,750,Yes,No,Cafe,2012,26,3.7,Yes
+R0423,Cafe Casual 423,L013,C009,3.4,313,550,No,No,Casual Dining,2015,22,3.6,Yes
+R0424,Chinese Cafe 424,L034,C004,3.8,426,650,Yes,Yes,Cafe,2010,29,3.4,Yes
+R0425,Fast Food Casual 425,L009,C008,3.6,76,550,Yes,No,Casual Dining,2016,44,3.1,Yes
+R0426,Korean Quick 426,L040,C019,4.1,778,1000,No,No,Quick Service,2005,55,3.0,Yes
+R0427,Bakery Casual 427,L028,C010,4.8,173,500,No,No,Casual Dining,2008,27,4.3,Yes
+R0428,North Indian Bakery 428,L038,C002,3.5,628,700,No,No,Bakery,2018,21,4.2,Yes
+R0429,Mexican Food 429,L044,C006,3.4,43,1950,Yes,No,Food Court,2009,18,3.4,Yes
+R0430,Continental Casual 430,L048,C013,2.8,192,600,Yes,No,Casual Dining,2004,27,3.6,Yes
+R0431,Italian Fine 431,L021,C005,4.5,439,1000,Yes,No,Fine Dining,2008,36,3.9,Yes
+R0432,Korean Cafe 432,L014,C019,3.2,727,450,Yes,No,Cafe,2015,40,3.3,Yes
+R0433,Desserts Cafe 433,L035,C016,3.4,2592,700,Yes,Yes,Cafe,2023,21,3.0,Yes
+R0434,Mexican Fine 434,L028,C006,3.9,81,450,Yes,No,Fine Dining,2005,28,3.6,Yes
+R0435,Seafood Quick 435,L014,C017,4.9,310,600,No,No,Quick Service,2015,34,3.7,Yes
+R0436,Kerala Bakery 436,L047,C014,3.4,20,400,Yes,No,Bakery,2016,36,5.0,Yes
+R0437,Thai Casual 437,L008,C011,3.8,52,250,No,No,Casual Dining,2013,37,4.1,No
+R0438,Seafood Cafe 438,L045,C017,3.9,492,700,Yes,No,Cafe,2024,35,3.6,Yes
+R0439,Seafood Food 439,L022,C017,3.6,149,550,No,Yes,Food Court,2008,37,3.2,Yes
+R0440,Fast Food Cafe 440,L034,C008,4.6,93,850,No,No,Cafe,2013,28,3.8,Yes
+R0441,Kerala Cafe 441,L047,C014,3.9,64,300,No,Yes,Cafe,2000,37,3.4,Yes
+R0442,Mughlai Quick 442,L044,C015,3.1,99,500,No,Yes,Quick Service,2022,52,4.0,Yes
+R0443,Thai Bakery 443,L018,C011,2.8,175,-100,Yes,No,Bakery,2002,56,4.2,Yes
+R0444,Street Food Cafe 444,L005,C020,4.1,531,800,Yes,No,Cafe,2007,41,2.0,Yes
+R0445,Biryani Quick 445,L047,C007,3.9,657,600,Yes,No,Quick Service,2003,26,3.5,Yes
+R0446,Chinese Cafe 446,L044,C004,3.7,69,350,No,No,Cafe,2005,36,4.8,No
+R0447,South Indian Cafe 447,L033,C003,3.7,95,500,No,No,Cafe,2011,32,2.7,Yes
+R0448,Seafood Quick 448,L009,C017,2.8,136,450,No,No,Quick Service,2006,28,4.4,Yes
+R0449,Kerala Bakery 449,L002,C014,3.5,253,450,Yes,No,Bakery,2021,44,3.1,Yes
+R0450,Chinese Cafe 450,L047,C004,3.2,62,450,No,Yes,Cafe,2011,44,3.8,Yes
+R0451,South Indian Cafe 451,L024,C003,3.9,29,800,Yes,No,Cafe,2018,32,3.6,Yes
+R0452,Seafood Cafe 452,L037,C017,3.3,92,1250,Yes,No,Cafe,2023,44,4.9,No
+R0453,Fast Food Quick 453,L004,C008,3.0,482,250,No,Yes,Quick Service,2003,36,3.4,Yes
+R0454,Italian Casual 454,L029,C005,4.1,42,550,No,No,Casual Dining,2009,37,4.1,Yes
+R0455,Biryani Cafe 455,L009,C007,3.8,377,800,Yes,Yes,Cafe,2001,40,5.0,Yes
+R0456,North Indian Quick 456,L031,C002,4.0,566,950,Yes,No,Quick Service,2005,32,3.5,Yes
+R0457,Mughlai Bakery 457,L016,C015,4.4,240,1300,No,Yes,Bakery,2009,18,4.0,Yes
+R0458,Desserts Bakery 458,L043,C016,4.1,579,1200,No,No,Bakery,2007,49,3.4,Yes
+R0459,Seafood Casual 459,L037,C017,4.1,324,650,Yes,No,Casual Dining,2015,22,4.2,Yes
+R0460,South Indian Casual 460,L038,C003,3.9,139,500,Yes,No,Casual Dining,2001,38,3.2,Yes
+R0461,Seafood Food 461,L022,C017,3.6,290,400,Yes,Yes,Food Court,2000,44,3.8,Yes
+R0462,Thai Cafe 462,L012,C011,3.3,716,550,No,No,Cafe,2001,45,3.8,Yes
+R0463,Mexican Casual 463,L021,C006,,303,400,No,No,Casual Dining,2018,15,3.8,Yes
+R0464,Thai Quick 464,L044,C011,2.8,48,600,No,Yes,Quick Service,2015,34,3.6,Yes
+R0465,Chinese Fine 465,L046,C004,3.9,200,650,No,No,Fine Dining,2007,21,4.1,Yes
+R0466,South Indian Casual 466,L030,C003,4.3,115,600,Yes,Yes,Casual Dining,2011,38,3.3,Yes
+R0467,Cafe Quick 467,L033,C009,3.1,731,750,No,No,Quick Service,2024,35,4.4,Yes
+R0468,South Indian Quick 468,L040,C003,2.9,159,250,Yes,Yes,Quick Service,2019,46,3.6,Yes
+R0469,Fast Food Quick 469,L035,C008,4.3,231,-100,Yes,No,Quick Service,2013,25,4.3,Yes
+R0470,Thai Casual 470,L048,C011,4.4,787,500,Yes,No,Casual Dining,2013,35,3.5,Yes
+R0471,Thai Quick 471,L042,C011,4.0,893,600,Yes,No,Quick Service,2020,38,3.8,Yes
+R0472,Italian Food 472,L006,C005,3.2,338,1600,Yes,Yes,Food Court,2024,48,3.4,Yes
+R0473,Kerala Casual 473,L026,C014,3.1,304,450,No,No,Casual Dining,2001,63,4.4,Yes
+R0474,North Indian Casual 474,L020,C002,3.6,149,700,No,No,Casual Dining,2014,24,3.2,Yes
+R0475,Indian Cafe 475,L004,C001,3.9,83,650,Yes,No,Cafe,2010,38,3.5,Yes
+R0476,Chinese Bakery 476,L017,C004,4.1,303,250,Yes,No,Bakery,2013,36,3.8,Yes
+R0477,Japanese Casual 477,L048,C012,3.5,857,900,No,No,Casual Dining,2000,35,4.3,No
+R0478,Korean Cafe 478,L037,C019,4.6,234,300,No,No,Cafe,2000,36,3.5,Yes
+R0479,Seafood Quick 479,L027,C017,,254,1050,Yes,Yes,Quick Service,2008,33,3.9,Yes
+R0480,North Indian Fine 480,L029,C002,4.0,151,450,No,Yes,Fine Dining,2013,15,4.2,Yes
+R0481,Chinese Quick 481,L031,C004,3.8,28,600,Yes,Yes,Quick Service,2022,43,3.8,Yes
+R0482,Italian Casual 482,L048,C005,3.4,753,600,Yes,No,Casual Dining,2004,40,4.0,Yes
+R0483,Korean Cafe 483,L008,C019,4.7,185,400,No,Yes,Cafe,2008,27,4.0,Yes
+R0484,Italian Fine 484,L037,C005,3.1,120,950,No,No,Fine Dining,2016,48,3.9,Yes
+R0485,South Indian Fine 485,L027,C003,4.3,318,550,Yes,No,Fine Dining,2017,31,3.8,Yes
+R0486,Thai Food 486,L038,C011,4.2,1047,650,No,No,Food Court,2005,43,3.7,Yes
+R0487,Mughlai Casual 487,L048,C015,3.4,1438,550,Yes,Yes,Casual Dining,2007,34,3.4,Yes
+R0488,Seafood Casual 488,L019,C017,4.2,1058,450,Yes,No,Casual Dining,2017,35,3.8,Yes
+R0489,Desserts Food 489,L008,C016,4.3,83,700,Yes,No,Food Court,2006,29,3.5,Yes
+R0490,Italian Fine 490,L025,C005,2.5,1664,700,Yes,No,Fine Dining,2011,60,4.0,Yes
+R0491,Chinese Cafe 491,L029,C004,3.8,702,600,No,No,Cafe,2021,32,2.6,Yes
+R0492,Mexican Casual 492,L004,C006,3.5,124,450,No,No,Casual Dining,2022,40,3.8,Yes
+R0493,,L024,C015,3.2,2355,850,No,Yes,Casual Dining,2005,26,3.4,Yes
+R0494,Fast Food Quick 494,L019,C008,4.4,95,450,No,No,Quick Service,2006,44,4.4,Yes
+R0495,Street Food Fine 495,L006,C020,3.9,144,500,Yes,Yes,Fine Dining,2006,31,4.2,Yes
+R0496,Thai Cafe 496,L012,C011,4.0,203,200,Yes,No,Cafe,2022,47,4.1,Yes
+R0497,Thai Quick 497,L014,C011,4.2,272,600,Yes,No,Quick Service,2024,32,4.2,Yes
+R0498,Cafe Casual 498,L031,C009,3.2,1539,600,Yes,No,Casual Dining,2019,21,3.7,Yes
+R0499,Biryani Casual 499,L017,C007,3.5,486,450,No,No,Casual Dining,2012,27,3.7,Yes
+R0500,North Indian Food 500,L031,C002,3.4,33,400,Yes,No,Food Court,2015,15,3.7,Yes
+R0152,Cafe Fine 152,L014,C009,3.4,59,500,Yes,No,Fine Dining,2011,39,4.3,Yes
+R0425,Fast Food Casual 425,L009,C008,3.6,76,550,Yes,No,Casual Dining,2016,44,3.1,Yes
+R0155,Street Food Quick 155,L034,C020,3.3,220,550,Yes,No,Quick Service,2006,38,3.7,Yes
+R0191,Japanese Casual 191,L027,C012,4.3,347,550,No,No,Casual Dining,2010,37,3.8,Yes
+R0132,North Indian Fine 132,L014,C002,4.1,1269,700,No,No,Fine Dining,2000,41,3.7,Yes
+R0311,Indian Quick 311,L022,C001,4.1,873,700,No,Yes,Quick Service,2003,33,3.8,Yes
+R0267,Biryani Cafe 267,L003,C007,4.8,229,550,Yes,Yes,Cafe,2011,31,3.7,Yes
+R0496,Thai Cafe 496,L012,C011,4.0,203,200,Yes,No,Cafe,2022,47,4.1,Yes

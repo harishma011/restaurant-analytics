@@ -1,0 +1,21 @@
+Cuisine_ID,Cuisine,Cuisine_Category,Vegetarian_Friendly
+C001,Indian,Indian,Yes
+C002,North Indian,Indian,Yes
+C003,South Indian,Indian,Yes
+C004,Chinese,Asian,Yes
+C005,Italian,Continental,Yes
+C006,Mexican,International,Yes
+C007,Biryani,Indian,Yes
+C008,Fast Food,Fast Food,Yes
+C009,Cafe,Cafe,Yes
+C010,Bakery,Bakery,Yes
+C011,Thai,Asian,Yes
+C012,Japanese,Asian,Yes
+C013,Continental,Continental,Yes
+C014,Kerala,Indian,Yes
+C015,Mughlai,Indian,Yes
+C016,Desserts,Dessert,Yes
+C017,Seafood,Indian,No
+C018,BBQ,International,No
+C019,Korean,Asian,Yes
+C020,Street Food,Fast Food,Yes

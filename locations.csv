@@ -1,0 +1,49 @@
+Location_ID,Location,City,State,Region,Population_Category,Avg_Rent_Index
+L001,Koramangala,Bengaluru,Karnataka,South,Medium,155.6
+L002,Indiranagar,Bengaluru,Karnataka,South,High,123.9
+L003,Whitefield,Bengaluru,Karnataka,South,Low,84.0
+L004,Jayanagar,Bengaluru,Karnataka,South,Low,148.0
+L005,HSR Layout,Bengaluru,Karnataka,South,Medium,133.7
+L006,Electronic City,Bengaluru,Karnataka,South,Low,157.3
+L007,Andheri,Mumbai,Maharashtra,West,High,89.1
+L008,Bandra,Mumbai,Maharashtra,West,Low,86.5
+L009,Powai,Mumbai,Maharashtra,West,Medium,117.2
+L010,Dadar,Mumbai,Maharashtra,West,Medium,96.2
+L011,Borivali,Mumbai,Maharashtra,West,Medium,82.6
+L012,Lower Parel,Mumbai,Maharashtra,West,Medium,103.0
+L013,Connaught Place,Delhi,Delhi,North,Medium,140.7
+L014,Saket,Delhi,Delhi,North,Low,116.3
+L015,Rohini,Delhi,Delhi,North,Medium,74.2
+L016,Dwarka,Delhi,Delhi,North,Medium,85.3
+L017,Hauz Khas,Delhi,Delhi,North,Low,155.4
+L018,Vasant Kunj,Delhi,Delhi,North,High,142.8
+L019,Banjara Hills,Hyderabad,Telangana,South,Medium,78.8
+L020,Jubilee Hills,Hyderabad,Telangana,South,Medium,109.6
+L021,Gachibowli,Hyderabad,Telangana,South,Low,114.6
+L022,Madhapur,Hyderabad,Telangana,South,Low,151.8
+L023,Kukatpally,Hyderabad,Telangana,South,Medium,129.6
+L024,Begumpet,Hyderabad,Telangana,South,Medium,116.8
+L025,T Nagar,Chennai,Tamil Nadu,South,Medium,86.6
+L026,Adyar,Chennai,Tamil Nadu,South,High,139.8
+L027,Anna Nagar,Chennai,Tamil Nadu,South,High,150.5
+L028,Velachery,Chennai,Tamil Nadu,South,Medium,153.0
+L029,OMR,Chennai,Tamil Nadu,South,Low,87.6
+L030,Nungambakkam,Chennai,Tamil Nadu,South,Low,99.3
+L031,Kothrud,Pune,Maharashtra,West,Medium,94.4
+L032,Baner,Pune,Maharashtra,West,High,102.1
+L033,Viman Nagar,Pune,Maharashtra,West,Medium,118.8
+L034,Hinjewadi,Pune,Maharashtra,West,Low,142.2
+L035,Koregaon Park,Pune,Maharashtra,West,Low,158.8
+L036,Wakad,Pune,Maharashtra,West,High,87.9
+L037,Kakkanad,Kochi,Kerala,South,Low,143.4
+L038,Edappally,Kochi,Kerala,South,High,135.6
+L039,Panampilly Nagar,Kochi,Kerala,South,High,76.7
+L040,Fort Kochi,Kochi,Kerala,South,Medium,80.4
+L041,Vyttila,Kochi,Kerala,South,High,126.1
+L042,Kaloor,Kochi,Kerala,South,Medium,75.7
+L043,Salt Lake,Kolkata,West Bengal,East,Medium,99.3
+L044,Park Street,Kolkata,West Bengal,East,High,127.4
+L045,New Town,Kolkata,West Bengal,East,High,112.5
+L046,Ballygunge,Kolkata,West Bengal,East,Low,134.2
+L047,Gariahat,Kolkata,West Bengal,East,High,120.5
+L048,Alipore,Kolkata,West Bengal,East,High,114.4
